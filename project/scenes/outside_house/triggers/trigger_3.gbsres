@@ -1,0 +1,43 @@
+{
+  "_resourceType": "trigger",
+  "id": "70d61077-fe6f-4d87-a963-a3c489e869cb",
+  "name": "",
+  "prefabId": "",
+  "x": 14,
+  "y": 18,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The Count has\nordered a potion.",
+          "We have one in\nstock in the\nattic.",
+          "Please deliver\nthat to the Counts\nMannor in the East"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5d4f8048-8edb-4fc5-90f4-22c5856a0602"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

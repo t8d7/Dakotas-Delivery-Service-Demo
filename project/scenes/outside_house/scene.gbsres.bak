@@ -1,0 +1,72 @@
+{
+  "_resourceType": "scene",
+  "id": "81d8b6b7-9b1c-4934-ad1c-5e840e961317",
+  "_index": 7,
+  "name": "Outside House",
+  "backgroundId": "8988edfa-1514-432b-be7b-1a605c29ddc6",
+  "tilesetId": "",
+  "width": 31,
+  "height": 26,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003+0f4+001b+0f!002+0f!001b+0f!002+0f10+00c+0f!002+0f10+00c+0f!002+0f2+002+0f8+003+0f!00c+0f!002+0f2+002+0f8+003+0f!00c+0f!002+0f2+002+0f8+003+0f!00c+0f!002+0f2+002+0f8+003+0f!00c+0f!002+0f2+002+0f8+003+0f!00c+0f!002+0f2+002+0f2+002+0f4+003+0f!00c+0f!002+0f2+00d+0f!00c+0f!002+0f2+00d+0f!00c+0f!002+0f2+00d+0f!00c+0f!002+0f2+00d+0f!00c+0f!002+0f2+00d+0f!00c+0f!002+0f2+00d+0f!00c+0f!002+0f2+00d+0f!00c+0f!002+0f2+006+0f2+005+0f!009+0f4+002+0f6+004+0f10+001e+0f!001e+0f!001e+0f9+002+0f14+008+0f!002+0f!001b+0f!002+0f!001b+0f4+0013+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 648,
+  "y": 440,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
+      },
+      "id": "8f515dd9-e86d-4623-aa48-c4e6235714fc"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "71c7a635-f9a5-4040-bc85-2f558bc86109"
+            },
+            "id": "19832beb-f25f-4717-ae31-f643894ddbbd"
+          }
+        ]
+      },
+      "id": "51d0490e-2420-4981-abef-01148e3641b2"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__comment": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": []
+      },
+      "id": "9b516c8d-c0c3-49c1-a00a-89440890cda6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8209d2dc-80f3-47b9-a4f2-aaa0fa9cc597"
+}

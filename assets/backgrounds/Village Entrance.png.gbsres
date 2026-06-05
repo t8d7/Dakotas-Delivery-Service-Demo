@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "aabd6bc0-edac-4702-b146-8e587b6b9487",
+  "name": "Village Entrance",
+  "symbol": "bg_village_entrance",
+  "tileColors": "",
+  "filename": "Village Entrance.png",
+  "width": 74,
+  "height": 29,
+  "imageWidth": 592,
+  "imageHeight": 232
+}

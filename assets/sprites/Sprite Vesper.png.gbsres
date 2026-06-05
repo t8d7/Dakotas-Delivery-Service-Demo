@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "3f2bad66-b7c3-400e-89c1-9b564ec37cc6",
+  "name": "Sprite Vesper",
+  "symbol": "sprite_sprite_vesper",
+  "states": [
+    {
+      "id": "78b22017-6726-44d8-b819-37e10d2856f6",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "6fbc5d41-d614-428b-a418-0ea01a570810",
+          "frames": [
+            {
+              "id": "9d8466c4-719e-4fa9-a7d7-da23e0a42ef9",
+              "tiles": [
+                {
+                  "id": "a61dda79-6bf9-46e0-b406-3f2b48e2ae78",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "da4f2ec1-44a6-4c72-8b6b-7f20fbbf0034",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "32364f1f-486a-4e63-85f4-48721e492c6b",
+              "tiles": [
+                {
+                  "id": "2b9f55db-9285-4fd4-9a39-227739142278",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "74201df3-cafe-4e3b-9c4a-9ff511348d47",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "827b84e3-0088-4360-a0d1-cd94d8eab74e",
+          "frames": [
+            {
+              "id": "1e24fb42-d320-489e-9a57-ac83ad57ade9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "694eeea5-bd2d-4fb6-b08a-f4afd9409acc",
+          "frames": [
+            {
+              "id": "f1e46f43-62fa-426c-afaa-7199ce3e72d2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2205dc82-ac63-4d02-a46e-11c5ac9a6bb0",
+          "frames": [
+            {
+              "id": "e97e1821-6147-495b-84c0-1a32eaccc9c5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9dec26cf-6c72-499d-bd52-af11e1f5fce5",
+          "frames": [
+            {
+              "id": "6ebe3fef-6d0c-4955-bf97-64c5cdc1f492",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5f330696-d97c-479d-948a-1664ee6462ab",
+          "frames": [
+            {
+              "id": "5d2df7cc-60e8-41c3-a720-71bf79bd74a9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ec671da3-c28f-441d-9015-e01ec0a18e3b",
+          "frames": [
+            {
+              "id": "abc604d2-43a1-40d1-8661-dd2dd4bb1f58",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "68c87cbe-cf38-4257-850d-d5e6b3c31bd5",
+          "frames": [
+            {
+              "id": "3860c803-8225-4e53-9f83-fe9621bbfaa1",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Sprite Vesper.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "ae7ad92accb924fc71365111b22f457f6236ee6a"
+}

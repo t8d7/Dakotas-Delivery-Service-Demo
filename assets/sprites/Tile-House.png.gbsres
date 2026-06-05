@@ -1,0 +1,423 @@
+{
+  "_resourceType": "sprite",
+  "id": "9609c71a-6c26-4533-993d-d1f26af8284a",
+  "name": "Tile-House",
+  "symbol": "sprite_tile_house",
+  "states": [
+    {
+      "id": "f4afe07d-2928-411b-b137-37947c0dbf1e",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "511bed2a-c44e-41df-8d4b-826f47d20582",
+          "frames": [
+            {
+              "id": "1b85852d-cd76-4c7c-b597-8446707090e8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fe437d19-44a3-4bce-92d6-a5f0408ee1ad",
+          "frames": [
+            {
+              "id": "8a70edd9-06d5-41c8-a5d6-2ad7371287af",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "54cdb847-8337-45dd-8443-a73973734ad0",
+          "frames": [
+            {
+              "id": "01e010dd-d79f-41af-beb3-9a6c1c489f9f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e01d06a9-4fba-4d9b-8144-420bda2b09c0",
+          "frames": [
+            {
+              "id": "b8fed645-8a49-47dd-be3c-0e636f1cea53",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1f328a60-9a2c-4e9d-99c6-19f186d7c59b",
+          "frames": [
+            {
+              "id": "ee485cf0-c12b-45d2-b94f-02f7b3169c73",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5a8d3a78-dd8e-4dfb-ac84-07825bece13e",
+          "frames": [
+            {
+              "id": "c1172669-105b-4e07-9635-2722394d139f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "66d16ba0-ee58-4be3-afd3-f9de978188ed",
+          "frames": [
+            {
+              "id": "16fa4cdf-6cb4-4f5e-98ca-6335e7f6de7a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3e766f5a-0dfe-4034-9473-03dc3b524272",
+          "frames": [
+            {
+              "id": "6ea3f0e1-2903-46c2-8c79-229ab1452179",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0cb48f46-3a2e-4063-9300-7d4ec3029f7c",
+      "name": "Chest Open",
+      "animations": [
+        {
+          "id": "38509126-6e0c-4b21-80b5-88b760fc9824",
+          "frames": [
+            {
+              "id": "a358b3c6-ecc0-4dda-aaf4-09a506fb3399",
+              "tiles": [
+                {
+                  "id": "ed8e470f-496b-491a-888b-52335e2715df",
+                  "x": 1,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "9d801475-98fb-4dd5-9d54-3763abba0089",
+                  "x": 7,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7ba1d1b2-cfd8-4bf9-a66d-b6a69fed6d2a",
+          "frames": [
+            {
+              "id": "8c739fe3-c7b7-4afe-8c92-182b8ec95b6f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "153d25aa-df5c-458c-829d-9562d2e61a92",
+          "frames": [
+            {
+              "id": "b0c37af8-3794-4d40-b46e-904cc882a89e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8c14fe32-b83a-4f72-af5c-539048e9e5cc",
+          "frames": [
+            {
+              "id": "7c521643-fb9b-4216-8b3a-b4066a0e39f6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e6b82eec-dd81-42dd-9496-45e3c8592ead",
+          "frames": [
+            {
+              "id": "9a14424f-b215-45d3-a219-dc28e1e7fa35",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "db848a89-e52c-47bd-9032-5a2b412fac65",
+          "frames": [
+            {
+              "id": "767008bd-b056-4678-9ced-167728ebc487",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "12b88082-c45b-4a41-b2e0-2eeb525d3c39",
+          "frames": [
+            {
+              "id": "6897eeb2-0d9b-47ca-9766-0479dc4f64c1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "85bec0aa-5d2d-491c-a7af-c75c0e936e73",
+          "frames": [
+            {
+              "id": "eed51573-aff1-4fc4-be08-9ce769c429c3",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "fixed",
+      "flipLeft": true
+    },
+    {
+      "id": "b12a4cca-99df-4c6e-942b-d6a619b1cd90",
+      "name": "Chest Closed",
+      "animations": [
+        {
+          "id": "f9774736-226b-4bd5-87ef-da469961f503",
+          "frames": [
+            {
+              "id": "903283b6-22b8-4701-b1fc-e601d092383a",
+              "tiles": [
+                {
+                  "id": "1576ddb7-24d4-49c8-bf20-0159a6d810d6",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "9f9f1209-2aa3-473e-a236-23be3443cafa",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4d7a445b-0371-435c-969c-51f04eab7752",
+          "frames": [
+            {
+              "id": "565db6bf-9984-4b75-91a1-dec1b232d356",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "737f2e6c-c69d-405c-beff-0ee1a954e5f5",
+          "frames": [
+            {
+              "id": "5559f3b9-7ab5-4a90-aa4b-a72e90dbd330",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4d8febba-0150-4433-ad4c-313ff2cded87",
+          "frames": [
+            {
+              "id": "46c58bb7-3e4a-4124-9895-05e9db5acaa8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c8d7de1a-8b95-42df-8742-a172f7d576fe",
+          "frames": [
+            {
+              "id": "689b3d8d-7366-4c8a-bbf5-88492d586739",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9fd16d3e-e3be-4194-b606-3ac554d5bd69",
+          "frames": [
+            {
+              "id": "5dce8725-47a0-4871-b8e1-0291d20a2411",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "37d954eb-47ea-4a90-b65a-3f390ff33f60",
+          "frames": [
+            {
+              "id": "95fc4b4b-082b-4ba6-9013-bfb7b79d3ec2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "229bc26f-6f7c-44ce-b21c-60b139a65468",
+          "frames": [
+            {
+              "id": "3e167546-22b9-4302-b379-636fa6e05fc1",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "fixed",
+      "flipLeft": true
+    },
+    {
+      "id": "42d3e7f5-8bc3-496a-b6bd-331d6f5baab6",
+      "name": "Cauldron",
+      "animations": [
+        {
+          "id": "ec532122-b791-481e-9c3c-343b8e8ac86b",
+          "frames": [
+            {
+              "id": "395eb1e1-083a-4603-bb53-09e922283d4c",
+              "tiles": [
+                {
+                  "id": "f8692196-bfe3-4322-a33d-5f8ab5aee8d7",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 56,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "8c913253-e802-4270-b1da-449c311dfbdd",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 56,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ac7942d4-6061-4ef7-bd3c-46eaf40eb05f",
+          "frames": [
+            {
+              "id": "b1e088f7-0dbb-4f09-b0a8-d3223244d10b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ca63faa6-3980-4680-acbd-be8a19cade5a",
+          "frames": [
+            {
+              "id": "0b5c4fae-706b-4c00-9d0b-6774b01c4271",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dec16745-fe17-4a8e-9faa-37ff8d6cc690",
+          "frames": [
+            {
+              "id": "d497bdd3-eefd-4004-828c-6f7553a7231c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c5451105-599a-4013-9db6-5beb22d8f077",
+          "frames": [
+            {
+              "id": "f93509a0-54bb-4d54-b999-1039e8e3e0b3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e7c1a1ff-822b-43b0-8637-c591f7f092a3",
+          "frames": [
+            {
+              "id": "79a36be6-05c2-44dc-9657-a6fae044acd5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "938c14ce-e7d8-4bcb-bfd3-0dabdf4ff5c7",
+          "frames": [
+            {
+              "id": "eaa69f57-f4ea-4193-8df8-651544df1801",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3c3d8f8f-a725-4451-a9c5-5aed94052f64",
+          "frames": [
+            {
+              "id": "1b581d04-7e28-4926-8f57-da2f0b588560",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "fixed",
+      "flipLeft": true
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Tile-House.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "c940193273dd92a402c805fbe450ef16854a7a6c"
+}

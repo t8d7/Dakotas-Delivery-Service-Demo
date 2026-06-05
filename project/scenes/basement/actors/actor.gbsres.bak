@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "9e1386a2-78da-45b5-bf02-b8871dec36c0",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "aba54582-b67e-4c8f-8284-0a3a104de800",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_3",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hi Dakota!\nI'm baking cookies\nright now",
+          "Could you come\nback later?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d2423953-0a67-4052-9e93-06faedd46868"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "9ef1f4a0-8fcd-47ea-9003-339b83d33a2e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 17,
+  "y": 7,
+  "_index": 0
+}

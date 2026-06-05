@@ -1,0 +1,141 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Seen Cat",
+      "symbol": "var_seen_cat"
+    },
+    {
+      "id": "1",
+      "name": "Seen duck",
+      "symbol": "var_seen_duck"
+    },
+    {
+      "id": "2",
+      "name": "Variable 14",
+      "symbol": "var_variable_14"
+    },
+    {
+      "id": "3",
+      "name": "Spoke To Space Dog",
+      "symbol": "var_spoke_to_space_dog"
+    },
+    {
+      "id": "4",
+      "name": "Cup",
+      "symbol": "var_cup"
+    },
+    {
+      "id": "5",
+      "name": "tmp_array_read_head",
+      "symbol": "var_tmp_array_read_head"
+    },
+    {
+      "id": "6",
+      "name": "NewGameTextDisplayed",
+      "symbol": "var_newgametextdisplayed"
+    },
+    {
+      "id": "7",
+      "name": "PotionChest",
+      "symbol": "var_potionchest"
+    },
+    {
+      "id": "8",
+      "name": "DeliverToCount",
+      "symbol": "var_delivertocount"
+    },
+    {
+      "id": "9",
+      "name": "Quest6",
+      "symbol": "var_quest6"
+    },
+    {
+      "id": "10",
+      "name": "NewGame",
+      "symbol": "var_newgame"
+    },
+    {
+      "id": "11",
+      "name": "SaveGame",
+      "symbol": "var_savegame"
+    },
+    {
+      "id": "12",
+      "name": "PushedIceBlock",
+      "symbol": "var_pushediceblock"
+    },
+    {
+      "id": "13",
+      "name": "Character",
+      "symbol": "var_character"
+    },
+    {
+      "id": "14",
+      "name": "tmp_array_read_lock",
+      "symbol": "var_tmp_array_read_lock"
+    },
+    {
+      "id": "511",
+      "name": "inventory_top",
+      "symbol": "var_inventory_top"
+    },
+    {
+      "id": "4912bee2-387a-472f-ae4f-6679b6149517__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "fd223a5f-7148-4705-98a7-b0ef56cb5c74__L0",
+      "name": "Local_array_read_head",
+      "symbol": "var_local_array_read_head"
+    },
+    {
+      "id": "fd223a5f-7148-4705-98a7-b0ef56cb5c74__L1",
+      "name": "Local_array_read_target",
+      "symbol": "var_local_array_read_target"
+    },
+    {
+      "id": "fd223a5f-7148-4705-98a7-b0ef56cb5c74__L5",
+      "name": "Local_array_read_lock",
+      "symbol": "var_local_array_read_lock"
+    },
+    {
+      "id": "8939a308-1c39-496b-8429-4f72e74a0bf5__L0",
+      "name": "Read target",
+      "symbol": "var_read_target_0"
+    },
+    {
+      "id": "bb4c7e0c-ceab-4785-a8a0-7e038c794b3a__L0",
+      "name": "Read target",
+      "symbol": "var_read_target_1"
+    },
+    {
+      "id": "33735c74-a56a-4253-a2f8-388b86b6c3c2__L0",
+      "name": "Read target",
+      "symbol": "var_read_target_2"
+    },
+    {
+      "id": "a5a12c6e-d244-43f5-a27f-b7d5c463c8a8__L0",
+      "name": "Read target",
+      "symbol": "var_read_target_3"
+    },
+    {
+      "id": "d56c71fb-a039-48d3-891b-bc5dba5678d0__L0",
+      "name": "Read target",
+      "symbol": "var_read_target_4"
+    },
+    {
+      "id": "c4b46d04-965c-444d-a79b-58bbe981ce70__L0",
+      "name": "Read target",
+      "symbol": "var_read_target_5"
+    },
+    {
+      "id": "99e7e498-fbc6-4105-9a3b-0bcc3ab23368__L0",
+      "name": "Read target",
+      "symbol": "var_read_target_6"
+    }
+  ],
+  "constants": []
+}

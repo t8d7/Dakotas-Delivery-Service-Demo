@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5df12981-0206-4f8d-9fcc-8122e31b8d91",
+  "name": "Game title screen",
+  "symbol": "bg_game_title_screen",
+  "tileColors": "",
+  "filename": "Game title screen.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

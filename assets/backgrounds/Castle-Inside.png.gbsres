@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e6359a50-20c9-4af3-8bf7-e43786524433",
+  "name": "Castle-Inside",
+  "symbol": "bg_castle_inside",
+  "tileColors": "",
+  "filename": "Castle-Inside.png",
+  "width": 31,
+  "height": 24,
+  "imageWidth": 248,
+  "imageHeight": 192
+}

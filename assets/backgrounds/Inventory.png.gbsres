@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "74dfe2a8-5cdb-40f6-8dce-7789ccb77547",
+  "name": "Inventory",
+  "symbol": "bg_inventory",
+  "tileColors": "",
+  "filename": "Inventory.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

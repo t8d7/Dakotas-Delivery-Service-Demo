@@ -1,0 +1,153 @@
+{
+  "_resourceType": "actor",
+  "id": "09a6241e-1964-4ae4-b559-049716ff3c3e",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f9496326-48d2-44a1-8d3f-71069a35e989",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_2",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Are you here to \ndeliver \nsomething?",
+                "Yes?",
+                "I'll pass it along",
+                "(You delivered the\npotion)"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "26ffb430-5e7a-449c-b7c4-d81c00f3015b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "191be2dc-d2e8-4bcd-b61e-b3bba63998cd"
+          },
+          {
+            "command": "XV_ARRAY_MANAGER_SET",
+            "args": {
+              "array_manager_set_tabs": "tabSetValue",
+              "var1": "495",
+              "var2": "496",
+              "var3": "497",
+              "var4": "498",
+              "var5": "499",
+              "var6": "500",
+              "var7": "501",
+              "var8": "502",
+              "var9": "503",
+              "var10": "504",
+              "var11": "505",
+              "var12": "506",
+              "var13": "507",
+              "var14": "508",
+              "var15": "509",
+              "var16": "510",
+              "number_of_vars_to_use": "16",
+              "divide_bit_amount": "16",
+              "array_index": {
+                "type": "variable",
+                "value": "5"
+              },
+              "set_value": {
+                "type": "number",
+                "value": 0
+              },
+              "array_manager_get_tabs": "tabSetupArray",
+              "results": "L0"
+            },
+            "id": "ed2af0d1-34c9-4ed1-ae2e-75eb271da56f"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Do you need\nsomething?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a86fcd52-85ef-4e60-933b-5c1e80df7719"
+          }
+        ]
+      },
+      "id": "3547bc80-668f-4476-9e2a-203b62b48aee"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 8,
+  "y": 16,
+  "_index": 1
+}

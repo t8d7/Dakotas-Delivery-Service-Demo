@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bab7b6e0-72fe-4ccc-ba8f-a69d093b00bf",
+  "name": "Tile-House Outside",
+  "symbol": "bg_tile_house_outside",
+  "tileColors": "",
+  "filename": "Tile-House Outside.png",
+  "width": 21,
+  "height": 8,
+  "imageWidth": 168,
+  "imageHeight": 64
+}

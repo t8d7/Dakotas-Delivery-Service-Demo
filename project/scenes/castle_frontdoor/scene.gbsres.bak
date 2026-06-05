@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "c9c46f74-b18c-470d-b898-587703f2a9b2",
+  "_index": 10,
+  "name": "Castle Frontdoor",
+  "backgroundId": "238ce3f6-0959-4977-8717-2286a3cda2b3",
+  "tilesetId": "",
+  "width": 22,
+  "height": 41,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00fb+0f4+0012+0f!002+0f!0012+0f!002+0f!0012+0f!002+0f!0012+0f!002+0f!009+0fa+002+0fa+0033+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+00e+0f2+004+0f2+007+0f9+004+0f2+0014+0f2+0014+0f2+0014+0f2+0014+0f2+0014+0f2+007+0f16+0042+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 1912,
+  "y": 520,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__comment": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": []
+      },
+      "id": "08a5eef7-d96d-40b0-9e18-c2ab186c5421"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
+      },
+      "id": "03ab4052-6abe-40fe-b057-779c6f8f61b2"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8209d2dc-80f3-47b9-a4f2-aaa0fa9cc597"
+}

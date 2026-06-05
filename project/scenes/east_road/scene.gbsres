@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "dc99aa56-b198-4f54-9935-5542140f13bf",
+  "_index": 7,
+  "name": "East Road",
+  "backgroundId": "0bc69316-477e-4853-9cb2-a2c13a71629e",
+  "tilesetId": "",
+  "width": 37,
+  "height": 32,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00128+0f12+0024+0f!0024+0f!0024+0f!0013+0ff+002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f!0021+0f!002+0f14+00e+0f!0024+0f!0024+0f!0024+0f17+006f+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 952,
+  "y": 528,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__comment": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": []
+      },
+      "id": "724c7346-0a41-44de-8149-8457454a7f2d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
+      },
+      "id": "35148401-db9f-48ec-8ce4-119ea69ecae8"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8209d2dc-80f3-47b9-a4f2-aaa0fa9cc597"
+}

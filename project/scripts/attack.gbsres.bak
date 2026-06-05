@@ -1,0 +1,90 @@
+{
+  "_resourceType": "script",
+  "id": "418c2a9a-1fb4-4853-b01f-90713e402b99",
+  "name": "Attack",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.1
+      },
+      "id": "a727c5cd-1d53-46c9-960a-126f0ede3214"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Attack",
+        "loopAnim": false
+      },
+      "id": "86e8b3c5-d8a0-44b1-9460-180a55837615"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "e0957c5d-37b3-4a74-99d8-81a84298d0c8"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE",
+      "args": {
+        "__presetId": "1bdb289d-8735-4f85-a0ad-33d1ea445d21",
+        "__section": "projectile",
+        "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
+        "spriteStateId": "",
+        "actorId": "$self$",
+        "x": 0,
+        "y": 0,
+        "directionType": "actor",
+        "otherActorId": "$self$",
+        "direction": "right",
+        "angle": 0,
+        "angleVariable": "V0",
+        "targetActorId": "$self$",
+        "initialOffset": 15,
+        "speed": 1,
+        "animSpeed": 15,
+        "lifeTime": 1,
+        "loopAnim": true,
+        "destroyOnHit": true,
+        "collisionGroup": "3",
+        "collisionMask": [
+          "1"
+        ]
+      },
+      "id": "6f50c340-1a87-4cda-8c64-242e30cf843c"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "86cea1db-8505-4650-b537-6f458c58af7e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "1fb8ff9b-48be-4b08-8fb9-adbc6edc1a4b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "d1c2caab-51be-4195-b927-968c96ade1c2"
+    }
+  ]
+}

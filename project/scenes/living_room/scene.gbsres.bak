@@ -1,0 +1,91 @@
+{
+  "_resourceType": "scene",
+  "id": "6a337c70-1396-49ab-8e06-598a1964cc9f",
+  "_index": 3,
+  "name": "Living Room",
+  "backgroundId": "3a0a1083-bc68-45c5-a339-9547e8d2bf04",
+  "tilesetId": "",
+  "width": 36,
+  "height": 33,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00173+0f5+001c+0f4+002+0f2+001a+0f3+006+0f!0016+0f5+008+0f!007+0f8+007+0f!00c+0f9+006+0f2+006+0f!00c+0f8+008+0f2+005+0f!00c+0f7+00a+0f2+004+0f!00c+0f7+00b+0f!004+0f!001e+0f!004+0f!001e+0f!004+0f!0016+0f4+004+0f!004+0f!0016+0f!002+0f!004+0f!004+0f!0016+0f!002+0f!004+0f!004+0f!001e+0f!004+0f!001e+0f!004+0f!00c+0f7+00a+0f2+004+0f!00c+0f!005+0f2+00!0f6+00!0f2+005+0f!00c+0f!006+0fa+006+0f5+004+0f5+007+0f8+007+0f5+004+0f5+0016+0fe+005c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 360,
+  "y": 120,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
+      },
+      "id": "c9880495-14e2-481f-a208-bcad7f66fa32"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Check the Mailbox\noutside for orders"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "260a769b-cbf3-402b-9f37-3b573acea307"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "6",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "ac234ec6-d1f5-4019-a2e5-01cbaceebf06"
+          }
+        ],
+        "false": []
+      },
+      "id": "ca9aea95-4ac3-453b-8c03-f83dd0eecb10"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8209d2dc-80f3-47b9-a4f2-aaa0fa9cc597"
+}

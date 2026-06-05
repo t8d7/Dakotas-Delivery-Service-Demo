@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "0bc69316-477e-4853-9cb2-a2c13a71629e",
+  "name": "East Road",
+  "symbol": "bg_east_road",
+  "tileColors": "",
+  "filename": "East Road.png",
+  "width": 37,
+  "height": 32,
+  "imageWidth": 296,
+  "imageHeight": 256
+}

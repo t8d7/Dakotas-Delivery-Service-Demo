@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "af815bdc-23db-48dd-9abb-8c3155524f4b",
+  "name": "Tile-Dakta house",
+  "symbol": "bg_tile_dakta_house",
+  "tileColors": "",
+  "filename": "Tile-Dakta house.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "f7469ea1-9eef-44d2-9206-e65b861535be",
+  "_index": 9,
+  "name": "Village Enterance",
+  "backgroundId": "aabd6bc0-edac-4702-b146-8e587b6b9487",
+  "tilesetId": "",
+  "width": 74,
+  "height": 29,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0037+0f6+0044+0f!004+0f!0044+0f!004+0f!0044+0f!004+0f!0044+0f!004+0f!0044+0f!004+0f!0044+0f!004+0f!0044+0f!004+0f!0044+0f!004+0f!002b+0f8+0011+0f!004+0f!002b+0f!006+0f!0011+0f!004+0f!002b+0f!006+0f!0011+0f!004+0f!002b+0f!006+0f!002+0f4+006+0f4+00!0f!004+0f!005+0f4+004+0f1f+006+0f4+002+0f8+002+0f3+004+0f7+002+0f5+00172+0f1f+006+0f13+004+0fe+001e+0f!006+0f!0011+0f!004+0f!002b+0f!006+0f!0011+0f!004+0f!002b+0f!006+0f!0011+0f!004+0f!002b+0f!006+0f!0011+0f!004+0f!002b+0f!006+0f!0011+0f!004+0f!002b+0f8+0011+0f!004+0f!0044+0f!004+0f!0044+0f!004+0f!0044+0f6+00d+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 1272,
+  "y": 608,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__comment": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": []
+      },
+      "id": "7d6113d4-daa3-4d70-b1fb-afab134efe21"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
+      },
+      "id": "ce64db18-01d0-4ec6-bd26-82c810194c94"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8209d2dc-80f3-47b9-a4f2-aaa0fa9cc597"
+}
